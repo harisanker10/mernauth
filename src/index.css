@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply box-border flex justify-center rounded-lg bg-blue-600 px-5 py-[6px] text-sm font-bold text-white outline-none transition-all hover:bg-blue-700 md:text-base; 
+  }
+}
